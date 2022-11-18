@@ -45,6 +45,7 @@ public class links_page extends Config {
 
 
         System.out.println(link);
+
         for (int i = 0; i < link; i++) {
             WebElement ulbody2 = driver.findElement(By.cssSelector("div.footer__bottom-section"));
             List<WebElement> links= ulbody2.findElements(By.cssSelector("a"));
@@ -68,14 +69,7 @@ public class links_page extends Config {
 }
 
 
-//    List<WebElement> link = driver.findElements(By.tagName("a"));
 
-
-
-
-//            String st1 = "//div[@class ='footer__bottom-section']/div/div/ul/li[";
-//            String st2 = "]";
-//                String fullpath = st1+i+st2;
 
 
 

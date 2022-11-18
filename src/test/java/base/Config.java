@@ -15,6 +15,7 @@ public class Config  {
     static GenericFunctions GF = new GenericFunctions();
 
     public static WebDriver driver;
+    // This variable is declared in a class (DriverInit) and initialized in "@BeforeClass" of various Test Plans(Test Classes)
     // We use this driver as variable to init the driver on other classes & for reusable purposes
 
 

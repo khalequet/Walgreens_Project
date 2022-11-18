@@ -10,5 +10,5 @@ Feature: Registration
     And I enter valid Password
     And I click on I read and agree to the Walgreens terms of use
     When I click on continue button
-#    Then I should be able to create an account
+    Then I should be able to create an account
 

@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestRunner
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.695 s <<< FAILURE! - in TestRunner
-TestRunner.runScenario["Find all links works from the homepage footer", "Optional[links]"](1)  Time elapsed: 11.724 s  <<< FAILURE!
-java.lang.AssertionError
-

@@ -1,6 +1,6 @@
 Feature: SignIn
   @SignIn
-  Scenario: Using vaild email and password user can log in
+  Scenario: Using valid email and password user can log in
 
 
     Given  I am at the walgreens homepage to signIn
